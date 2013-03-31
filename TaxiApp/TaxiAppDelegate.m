@@ -7,12 +7,17 @@
 //
 
 #import "TaxiAppDelegate.h"
+#import "LQSession.h"
+#import "LQTracker.h"
+
+#define api_key : @""
 
 @implementation TaxiAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [LQSession setAPIKey:@"ddea8bdb4cc4d6899527669d1cb91339"];
     return YES;
 }
 							

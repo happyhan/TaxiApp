@@ -23,6 +23,16 @@
 		526C32BF1708C36A0054717D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526C329A1708C36A0054717D /* Foundation.framework */; };
 		526C32C71708C36B0054717D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 526C32C51708C36B0054717D /* InfoPlist.strings */; };
 		526C32CA1708C36B0054717D /* TaxiAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 526C32C91708C36B0054717D /* TaxiAppTests.m */; };
+		526C32DF1708CA6F0054717D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526C32DE1708CA6F0054717D /* CoreLocation.framework */; };
+		526C32E11708CA7F0054717D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 526C32E01708CA7F0054717D /* libsqlite3.dylib */; };
+		526C32E31708CB910054717D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526C32E21708CB910054717D /* MessageUI.framework */; };
+		526C32E91708CBC70054717D /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 526C32E51708CBC70054717D /* CHANGELOG.md */; };
+		526C32EA1708CBC70054717D /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 526C32E71708CBC70054717D /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		526C32EB1708CBC70054717D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 526C32E81708CBC70054717D /* README.md */; };
+		526C32F01708D6E60054717D /* TaxiRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526C32EF1708D6E60054717D /* TaxiRegistrationViewController.m */; };
+		526C32F31708D6F60054717D /* TaxiLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526C32F21708D6F60054717D /* TaxiLoginViewController.m */; };
+		526C32F71708D81F0054717D /* TaxiHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526C32F61708D81F0054717D /* TaxiHomeViewController.m */; };
+		526C33011708E13E0054717D /* TaxiMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526C33001708E13E0054717D /* TaxiMapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +68,29 @@
 		526C32C61708C36B0054717D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		526C32C81708C36B0054717D /* TaxiAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaxiAppTests.h; sourceTree = "<group>"; };
 		526C32C91708C36B0054717D /* TaxiAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxiAppTests.m; sourceTree = "<group>"; };
+		526C32D51708C7C30054717D /* Geoloqi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geoloqi.h; sourceTree = "<group>"; };
+		526C32D61708C7C30054717D /* libGeoloqi-Debug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libGeoloqi-Debug.a"; sourceTree = "<group>"; };
+		526C32D71708C7C30054717D /* libGeoloqi-Release.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libGeoloqi-Release.a"; sourceTree = "<group>"; };
+		526C32D81708C7C30054717D /* LQError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQError.h; sourceTree = "<group>"; };
+		526C32D91708C7C30054717D /* LQSDKVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSDKVersion.h; sourceTree = "<group>"; };
+		526C32DA1708C7C30054717D /* LQSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSession.h; sourceTree = "<group>"; };
+		526C32DB1708C7C30054717D /* LQTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQTracker.h; sourceTree = "<group>"; };
+		526C32DE1708CA6F0054717D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		526C32E01708CA7F0054717D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		526C32E21708CB910054717D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		526C32E51708CBC70054717D /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		526C32E61708CBC70054717D /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		526C32E71708CBC70054717D /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		526C32E81708CBC70054717D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		526C32EE1708D6E60054717D /* TaxiRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiRegistrationViewController.h; sourceTree = "<group>"; };
+		526C32EF1708D6E60054717D /* TaxiRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiRegistrationViewController.m; sourceTree = "<group>"; };
+		526C32F11708D6F60054717D /* TaxiLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiLoginViewController.h; sourceTree = "<group>"; };
+		526C32F21708D6F60054717D /* TaxiLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiLoginViewController.m; sourceTree = "<group>"; };
+		526C32F51708D81F0054717D /* TaxiHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiHomeViewController.h; sourceTree = "<group>"; };
+		526C32F61708D81F0054717D /* TaxiHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiHomeViewController.m; sourceTree = "<group>"; };
+		526C32FD1708DEA90054717D /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		526C32FF1708E13E0054717D /* TaxiMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiMapViewController.h; sourceTree = "<group>"; };
+		526C33001708E13E0054717D /* TaxiMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiMapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +98,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526C32E31708CB910054717D /* MessageUI.framework in Frameworks */,
+				526C32E11708CA7F0054717D /* libsqlite3.dylib in Frameworks */,
+				526C32DF1708CA6F0054717D /* CoreLocation.framework in Frameworks */,
 				526C32991708C36A0054717D /* UIKit.framework in Frameworks */,
 				526C329B1708C36A0054717D /* Foundation.framework in Frameworks */,
 				526C329D1708C36A0054717D /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +123,9 @@
 		526C328C1708C3690054717D = {
 			isa = PBXGroup;
 			children = (
+				526C32E21708CB910054717D /* MessageUI.framework */,
+				526C32E01708CA7F0054717D /* libsqlite3.dylib */,
+				526C32DE1708CA6F0054717D /* CoreLocation.framework */,
 				526C329E1708C36A0054717D /* TaxiApp */,
 				526C32C21708C36A0054717D /* TaxiAppTests */,
 				526C32971708C3690054717D /* Frameworks */,
@@ -117,6 +156,12 @@
 		526C329E1708C36A0054717D /* TaxiApp */ = {
 			isa = PBXGroup;
 			children = (
+				526C32FE1708E11D0054717D /* MapView */,
+				526C32F81708DE360054717D /* Misc */,
+				526C32F41708D80D0054717D /* HomeView */,
+				526C32EC1708D6CC0054717D /* Login */,
+				526C32ED1708D6CC0054717D /* Registration */,
+				526C32D31708C7C30054717D /* Libs */,
 				526C32A71708C36A0054717D /* TaxiAppDelegate.h */,
 				526C32A81708C36A0054717D /* TaxiAppDelegate.m */,
 				526C32B01708C36A0054717D /* MainStoryboard.storyboard */,
@@ -158,6 +203,92 @@
 				526C32C51708C36B0054717D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		526C32D31708C7C30054717D /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				526C32E41708CBC70054717D /* JSONKit */,
+				526C32D41708C7C30054717D /* GeoloqiSDK */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		526C32D41708C7C30054717D /* GeoloqiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				526C32D51708C7C30054717D /* Geoloqi.h */,
+				526C32D61708C7C30054717D /* libGeoloqi-Debug.a */,
+				526C32D71708C7C30054717D /* libGeoloqi-Release.a */,
+				526C32D81708C7C30054717D /* LQError.h */,
+				526C32D91708C7C30054717D /* LQSDKVersion.h */,
+				526C32DA1708C7C30054717D /* LQSession.h */,
+				526C32DB1708C7C30054717D /* LQTracker.h */,
+			);
+			path = GeoloqiSDK;
+			sourceTree = "<group>";
+		};
+		526C32E41708CBC70054717D /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				526C32E51708CBC70054717D /* CHANGELOG.md */,
+				526C32E61708CBC70054717D /* JSONKit.h */,
+				526C32E71708CBC70054717D /* JSONKit.m */,
+				526C32E81708CBC70054717D /* README.md */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		526C32EC1708D6CC0054717D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				526C32F11708D6F60054717D /* TaxiLoginViewController.h */,
+				526C32F21708D6F60054717D /* TaxiLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		526C32ED1708D6CC0054717D /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				526C32EE1708D6E60054717D /* TaxiRegistrationViewController.h */,
+				526C32EF1708D6E60054717D /* TaxiRegistrationViewController.m */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		526C32F41708D80D0054717D /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				526C32F51708D81F0054717D /* TaxiHomeViewController.h */,
+				526C32F61708D81F0054717D /* TaxiHomeViewController.m */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		526C32F81708DE360054717D /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				526C32F91708DE360054717D /* Constant_Micro */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		526C32F91708DE360054717D /* Constant_Micro */ = {
+			isa = PBXGroup;
+			children = (
+				526C32FD1708DEA90054717D /* Constants.h */,
+			);
+			path = Constant_Micro;
+			sourceTree = "<group>";
+		};
+		526C32FE1708E11D0054717D /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				526C32FF1708E13E0054717D /* TaxiMapViewController.h */,
+				526C33001708E13E0054717D /* TaxiMapViewController.m */,
+			);
+			path = MapView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +368,8 @@
 				526C32AD1708C36A0054717D /* Default@2x.png in Resources */,
 				526C32AF1708C36A0054717D /* Default-568h@2x.png in Resources */,
 				526C32B21708C36A0054717D /* MainStoryboard.storyboard in Resources */,
+				526C32E91708CBC70054717D /* CHANGELOG.md in Resources */,
+				526C32EB1708CBC70054717D /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +407,11 @@
 				526C32A51708C36A0054717D /* main.m in Sources */,
 				526C32A91708C36A0054717D /* TaxiAppDelegate.m in Sources */,
 				526C32B51708C36A0054717D /* TaxiViewController.m in Sources */,
+				526C32EA1708CBC70054717D /* JSONKit.m in Sources */,
+				526C32F01708D6E60054717D /* TaxiRegistrationViewController.m in Sources */,
+				526C32F31708D6F60054717D /* TaxiLoginViewController.m in Sources */,
+				526C32F71708D81F0054717D /* TaxiHomeViewController.m in Sources */,
+				526C33011708E13E0054717D /* TaxiMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,10 +520,20 @@
 		526C32CE1708C36B0054717D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Arslan Ilyas (BS6234RXW8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Arslan Ilyas (BS6234RXW8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TaxiApp/TaxiApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TaxiApp/Libs/GeoloqiSDK\"";
 				INFOPLIST_FILE = "TaxiApp/TaxiApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/TaxiApp/Libs/GeoloqiSDK\"";
+				OTHER_LDFLAGS = (
+					"-lGeoloqi-$(CONFIGURATION)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6FA054F1-E3F1-459A-805F-31164E866F93";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6FA054F1-E3F1-459A-805F-31164E866F93";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,7 +543,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TaxiApp/TaxiApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TaxiApp/Libs/GeoloqiSDK\"";
 				INFOPLIST_FILE = "TaxiApp/TaxiApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/TaxiApp/Libs/GeoloqiSDK\"";
+				OTHER_LDFLAGS = (
+					"-lGeoloqi-$(CONFIGURATION)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
